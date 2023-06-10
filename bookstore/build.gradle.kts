@@ -23,6 +23,7 @@ dependencies {
   developmentOnly("org.springframework.boot:spring-boot-docker-compose")
   runtimeOnly("org.postgresql:postgresql")
   testImplementation("org.springframework.boot:spring-boot-starter-test")
+  implementation("org.springframework.boot:spring-boot-starter-validation:3.1.0")
 }
 
 tasks.withType<KotlinCompile> {
