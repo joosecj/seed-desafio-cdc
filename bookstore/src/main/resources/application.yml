@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    open-in-view: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        ddl-auto: update
+        dialect: org.hibernate.dialect.PostgreSQLDialect
