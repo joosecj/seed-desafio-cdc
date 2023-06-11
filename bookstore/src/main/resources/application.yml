@@ -7,3 +7,4 @@ spring:
         format_sql: true
         ddl-auto: update
         dialect: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
